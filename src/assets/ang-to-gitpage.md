@@ -58,3 +58,4 @@ In your app folder, in terminal, enter
 ng build '<your-app-name>' --prod --vendor-chunk=true
 ```
 This will generate a ``dist`` folder, all you have to do is push all the content within this folder to your repo, under different branch, any branch works, but make sure to adjust your branch accordingly in your setting as well.
+

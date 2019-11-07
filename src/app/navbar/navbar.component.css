@@ -7,6 +7,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#web-icon{
+  /*width: 20% !important;*/
+  /*height: 20% !important;*/
+}
 h1,
 h2,
 h3,
@@ -44,7 +48,7 @@ p {
 }
 
 #blog-link,
-#login-link{
+#login-link, #inflation-link{
   text-decoration: none;
   color: white;
   cursor: pointer;
@@ -52,11 +56,11 @@ p {
 }
 
 #blog-link:hover,
-#login-link:hover, .toolbar #twitter-logo:hover {
+#login-link:hover, .toolbar #twitter-logo:hover, #inflation-link:hover {
   opacity: 0.8;
 }
 
-#welcome-tag, #login-link, #blog-link, #website-link{
+#welcome-tag, #login-link, #blog-link, #website-link, #inflation-link{
   font-size: 80% !important;
 }
 

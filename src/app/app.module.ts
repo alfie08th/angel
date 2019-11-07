@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import {APP_BASE_HREF} from "@angular/common";
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
+import { InflationCalculatorComponent } from './inflation-calculator/inflation-calculator.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HomeComponent } from './home/home.component';
     BlogComponent,
     NavbarComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    InflationCalculatorComponent
   ],
   imports: [
     BrowserModule,

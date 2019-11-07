@@ -31,5 +31,9 @@ export class NavbarComponent implements OnInit {
     this.route.navigateByUrl('login').then(r=>{})
     this.enterBlog = false;
   }
+  anchorInflation(){
+    this.route.navigateByUrl('inflation').then(r=>{})
+    this.enterBlog = false;
+  }
 
 }
