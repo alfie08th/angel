@@ -1,0 +1,78 @@
+#page-not-found{
+  background: brown;
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#middle-content{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#content-404{
+width: 80%;
+margin: 0 auto;
+text-align: center;
+}
+
+.head-404{
+  width:20%;
+  font-size: 1200% !important;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif !important;
+  text-transform: uppercase;
+  display: inline-block;
+  color: white;
+  vertical-align: top;
+  text-shadow: 1px 1px 2px black;
+}
+
+#obi-wan{
+  width: 30% !important; 
+  display: inline-block;
+  position:relative;
+}
+
+#jedi,#saber{ 
+  width: 100%;
+  position: absolute; 
+  left:0;
+}
+#saber{
+  width: 80%;
+  padding:25% 0 0 15%;
+}
+
+
+.head-message,
+#go-home{
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif !important;
+  text-transform: uppercase;
+  color: white;
+  font-family: impact;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+  font-size: 200% !important;
+}
+
+
+#go-home{
+  text-decoration: none;
+  transition: .2s;
+  display:block;
+  font-size: 100% !important;
+}
+#go-home:hover{
+  color: #e0e0e0;
+  font-size: 95%;
+  transition: .2s;
+}
+
+@media only screen and (max-width: 500px){
+.head-404{
+    font-size: 300% !important;
+  }
+}
