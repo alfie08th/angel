@@ -4,4 +4,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Deployment Stage
 
-The code for angular is under the ``master`` branch, the ``git-hub`` page is under ``gh-pages`` branch. Good luck 😉 
+The code for angular is under the ``master`` branch, the code by which the ``git-hub page`` is running is under ``gh-pages`` branch. Good luck 😉 
